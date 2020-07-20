@@ -12,6 +12,13 @@ body{
 }
 .container-fluid {
     padding: 3% 15%;
+   
+}
+
+
+
+img{
+    border-radius: 70%;
 }
 
 /*
@@ -95,17 +102,17 @@ p{
 #testimonials{
 
 text-align: center;
-background-color: #0D98BA;
-color: #ffffff;
+background-color: white
+
 }
-.carousel-item{
+/* .carousel-item{
     padding: 7% 15%;
-}
-.testimonial-image{
+} */
+/* .testimonial-image{
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-}
+} */
 
 /* #press{
     background-color: #ef8172;
@@ -129,7 +136,36 @@ color: #ffffff;
 footer{
     text-align: center;
     border-spacing: 100px;
+    
 }
 button{
     border-radius: 8px;
 }
+
+.btn {
+    background: #0A758F;
+    background-image: -webkit-linear-gradient(top, #0A758F, #10BBE5);
+    background-image: -moz-linear-gradient(top, #0A758F, #10BBE5);
+    background-image: -ms-linear-gradient(top, #0A758F, #10BBE5);
+    background-image: -o-linear-gradient(top, #0A758F, #10BBE5);
+    background-image: linear-gradient(to bottom, #0A758F, #10BBE5);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
