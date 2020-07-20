@@ -12,13 +12,15 @@ body{
 }
 .container-fluid {
     padding: 3% 15%;
+   padding-bottom: 16%;
    
 }
 
 
 
 img{
-    border-radius: 70%;
+    border-radius: 50%;
+    
 }
 
 /*
@@ -69,7 +71,8 @@ p{
 /* title image  */
 
 .title-image{
-    width: 60%;
+    width: 100%;
+    border-radius: 16px;
     
 }
 
@@ -168,4 +171,13 @@ button{
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+    color: #ffffff;
   }
+  .footer-div{
+      height: 100%;
+      padding: 10%;
+      text-align: center;
+
+  }
+
+
